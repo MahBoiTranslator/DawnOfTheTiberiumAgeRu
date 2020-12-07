@@ -1,6 +1,6 @@
-# Руссификатор мода Dawn Of The Tiberium Age на Tiberian Sun
+# Русификатор мода Dawn Of The Tiberium Age на Tiberian Sun
 
-Данный репозиторий содержит историю разработки руссификатора для мода Dawn Of The Tiberium Age для игры Tiberian Sun. Сам мод вы можете скачать с сайта [moddb.com](https://www.moddb.com/mods/the-dawn-of-the-tiberium-age) 
+Данный репозиторий содержит историю разработки русификатора для мода Dawn Of The Tiberium Age для игры Tiberian Sun. Сам мод вы можете скачать с сайта [moddb.com](https://www.moddb.com/mods/the-dawn-of-the-tiberium-age) 
 
 Ссылка на актуальный сейчас локализатор: *идёт работа*
 
