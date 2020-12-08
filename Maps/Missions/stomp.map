@@ -1109,7 +1109,7 @@ Name=1 YAK
 Group=-1
 
 [01000084]
-0=1,AITNKD
+0=1,AIBFRT
 1=5,AI2TNK
 2=1,AICTNK
 Name=Tank Destroyer Force
@@ -4660,7 +4660,7 @@ DestroyableBridges=yes
 84=Allies,AIRAARTY,256,59,92,64,Guard,None,0,-1,0,-1,1,0
 85=Allies,AI1TNK,256,49,115,64,Guard,None,0,-1,0,-1,1,0
 86=Allies,AI1TNK,256,49,114,64,Guard,None,0,-1,0,-1,1,0
-87=Allies,TNKD,256,58,101,64,Guard,None,0,-1,0,-1,1,0
+87=Allies,BFRT,256,58,101,64,Guard,None,0,-1,0,-1,1,0
 
 [VariableNames]
 0=Transport north arrived,0

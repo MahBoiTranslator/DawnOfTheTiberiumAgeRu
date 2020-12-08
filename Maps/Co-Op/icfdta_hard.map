@@ -1,3 +1,33 @@
+[Basic]
+Name=It Came From DTA (Lunatic)
+Author=Rampastring
+Percent=0
+GameMode=Custom Map
+HomeCell=98
+InitTime=10000
+Official=yes
+EndOfGame=no
+FreeRadar=no
+MaxPlayer=4
+MinPlayer=2
+SkipScore=no
+TrainCrate=no
+TruckCrate=no
+AltHomeCell=99
+OneTimeOnly=no
+CarryOverCap=0
+NewINIFormat=4
+NextScenario=
+SkipMapSelect=yes
+CarryOverMoney=0.000000
+AltNextScenario=
+MultiplayerOnly=1
+IceGrowthEnabled=no
+VeinGrowthEnabled=no
+TiberiumGrowthEnabled=yes
+IgnoreGlobalAITriggers=no
+TiberiumDeathToVisceroid=yes
+
 [Tutorial]
 139=Mission accomplished! It wasn't that hard, right?
 165=What the hell? Giant ants!? This must be another capitalist trick attempting to take us down.
@@ -40,11 +70,11 @@ Cost=1.0
 BuildDelay=.03
 RepairDelay=.02
 BuildSlowdown=yes
-Groundspeed=0.9	;or 0.8 + ROF=1.0
+Groundspeed=0.9
 Airspeed=1.0
-BuildTime=1.0	; Cost= doesn't affect build-speed so it can remain at 1.0
+BuildTime=1.0
 Armor=1.0
-ROF=0.91	;1.0
+ROF=0.91
 RepairDelay=.001
 DestroyWalls=yes
 ContentScan=yes
@@ -2032,41 +2062,11 @@ SANVLS4H-G=yes
 Wall=yes
 Wood=yes
 Spread=32
-Verses=44%,75%,56%,25%,20%
+Verses=440%,750%,560%,250%,200%
 InfDeath=1
 Particle=GasCloudSys
 Tiberium=yes
 ProneDamage=50%
-
-[Basic]
-Name=It Came From DTA (Lunatic)
-Author=Rampastring
-Percent=0
-GameMode=Custom Map
-HomeCell=98
-InitTime=10000
-Official=yes
-EndOfGame=no
-FreeRadar=no
-MaxPlayer=4
-MinPlayer=2
-SkipScore=no
-TrainCrate=no
-TruckCrate=no
-AltHomeCell=99
-OneTimeOnly=no
-CarryOverCap=0
-NewINIFormat=4
-NextScenario=
-SkipMapSelect=yes
-CarryOverMoney=0.000000
-AltNextScenario=
-MultiplayerOnly=1
-IceGrowthEnabled=no
-VeinGrowthEnabled=no
-TiberiumGrowthEnabled=yes
-IgnoreGlobalAITriggers=no
-TiberiumDeathToVisceroid=yes
 
 [Events]
 01000014=1,51,0,420
@@ -4346,6 +4346,8 @@ Z=Spawn8,BARLU,256,7,0,64,Unload,None,0,-1,0,-1,1,0
 17=36075
 18=16079
 90=97105
+
+[X]
 
 [Digest]
 1=tDktg2+REcTUO/OtMDIIYbY/Zgg=

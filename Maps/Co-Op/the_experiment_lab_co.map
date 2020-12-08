@@ -27,9 +27,11 @@ VeinGrowthEnabled=no
 TiberiumGrowthEnabled=yes
 IgnoreGlobalAITriggers=no
 TiberiumDeathToVisceroid=yes
+
 [Tutorial]
 163=Objective 1: Destroy Nod's Tiberium Experiment Lab.
 164=Objective 2: Destroy all Nod buildings.
+
 [AAHoverMissile]
 ROF=70
 Burst=2
@@ -40,6 +42,7 @@ Report=ROCKET1
 Warhead=APAA
 Projectile=AAHeatSeeker
 BurstDelay0=9
+
 [ALLIEDUNIT1]
 ROT=3
 Cost=550
@@ -57,9 +60,11 @@ MovementZone=Fly
 Prerequisite=AWEAP,EXPRLAB
 EliteAbilities=FIREPOWER,ROF
 VeteranAbilities=FASTER,STRONGER
+
 [BuildingTypes]
 Laser Turret=CTURRET
 Experiment Lab=EXPRLAB
+
 [CTURRET]
 ROT=10
 Cost=1200
@@ -87,6 +92,7 @@ ThreatPosed=30
 TurretAnimDamaged=GUN_AD
 HasStupidGuardMode=false
 DamageParticleSystems=SparkSys,LGSparkSys
+
 [Chem120mm]
 ROF=80
 Anim=GFIRE1,GFIRE2,GFIRE3
@@ -98,6 +104,7 @@ Report=TNKFIRE6
 Warhead=ChemAP
 Projectile=TracerM
 ProjectileRange=6.25
+
 [Chem120mmE]
 ROF=80
 Anim=GFIRE1,GFIRE2,GFIRE3
@@ -109,6 +116,7 @@ Report=TNKFIRE6
 Warhead=ChemAP
 Projectile=TracerM
 ProjectileRange=6.25
+
 [EXPRLAB]
 Cost=5000
 Name=Experiment Lab
@@ -131,6 +139,7 @@ Capturable=true
 DeploySound=CONSTRU2
 Insignificant=no
 DamageParticleSystems=SmallGreySSys,BigGreySmokeSys
+
 [GDIUNIT1]
 Image=HVR
 Cost=700
@@ -146,10 +155,13 @@ Owner=GDI
 VeteranAbilities=STRONGER,FASTER
 SpeedType=Hover
 Locomotor={4A582742-9839-11d1-B709-00A024DDAFD1}
+
 [General]
 TeamDelays=550,1575,2000
+
 [HJChem]
 Particle=GasCloudSys
+
 [HVC]
 ROT=5
 Cost=1000
@@ -173,6 +185,7 @@ Prerequisite=CABHUT
 EliteAbilities=SELF_HEAL,CRUSHER
 ScrapExplosion=ART-EXPU_SCRAP
 VeteranAbilities=STRONGER,SIGHT,FASTER
+
 [HoverMissile]
 ROF=70
 Burst=2
@@ -184,6 +197,7 @@ Warhead=MslHE
 Projectile=AGHeatSeeker
 BurstDelay0=9
 MinimumRange=0
+
 [HoverMissileE]
 ROF=70
 Burst=4
@@ -197,6 +211,7 @@ BurstDelay0=4
 BurstDelay1=9
 BurstDelay2=4
 MinimumRange=0
+
 [LaserBeamCannon]
 ROF=10
 Range=18
@@ -210,6 +225,7 @@ LaserDuration=3
 LaserInnerColor=255,0,0
 LaserOuterColor=0,0,0
 LaserOuterSpread=20,40,40
+
 [LaserBeamCannonE]
 ROF=3
 Range=18
@@ -223,6 +239,7 @@ LaserDuration=3
 LaserInnerColor=255,0,0
 LaserOuterColor=0,0,0
 LaserOuterSpread=20,40,40
+
 [NODUNIT1]
 Cost=720
 Name=Beam Cannon
@@ -236,10 +253,12 @@ Strength=1500
 TechLevel=1
 Prerequisite=AFLD,EXPRLAB
 VeteranAbilities=FASTER,STRONGER
+
 [NSYRD]
 Cost=2500
 Power=400
 DamageParticleSystems=GasCloudSys
+
 [SOVIETUNIT1]
 ROT=4
 Cost=2000
@@ -256,22 +275,27 @@ Secondary=MammothTuskRA
 TechLevel=1
 Prerequisite=SWEAP,EXPRLAB
 VeteranAbilities=FASTER,STRONGER
+
 [TIBSPRDR]
 LightRedTint=0.0
 LightBlueTint=0.0
 LightGreenTint=0.15
 LightIntensity=0.003
 LightVisibility=1500
+
 [TIBSPRDV]
 LightRedTint=0.005
 LightBlueTint=0.35
 LightGreenTint=0.005
 LightIntensity=0.01
 LightVisibility=4000
+
 [Warheads]
 9001=ChemAP
+
 [Preview]
 Size=0,0,180,90
+
 [PreviewPack]
 1=dBAAIAaEW0KEXUSEXURgASAjLAADc1ZAcFU/SwCAWUIgJ0wBICQcAQZ/WEF5VD59Vj9KAI
 2=RdNLwDBoxqTZNoTKB0U0gABoRcRGNNPHFPOkgANrwAIC1fAGpYRUsAblxHIBK/A5RxUkgA
@@ -737,13 +761,16 @@ Size=0,0,180,90
 462=QPOa8o////LaQGeAFQiUgAWEZIAEABSABAAUgAQAFIAEABSABAAUgAQAFIAEABSABAAUgA
 463=QAFIAEABSABAAUgAQAFIAEABSABAAUgAQAFIAEABSABAASMIYLwjKhQAILrfEJl2VyGkIU
 464=sAZ1I9KsgDwMqMImAx/CMgVCwAEQAA
+
 [01000000]
 0=6,BIKE
 Name=Early attack bikes
 Group=-1
+
 [01000001]
 0=11,14
 Name=Hunt
+
 [01000002]
 Max=0
 Full=no
@@ -775,6 +802,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000003]
 Max=0
 Full=no
@@ -806,6 +834,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000004]
 Max=0
 Full=no
@@ -837,6 +866,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000005]
 Max=0
 Full=no
@@ -868,10 +898,12 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000008]
 0=4,HVC
 Name=4 ChemHVC
 Group=-1
+
 [01000009]
 Max=0
 Full=no
@@ -903,6 +935,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [Actions]
 01000006=4,80,1,01000002,0,0,0,0,U,80,1,01000003,0,0,0,0,V,80,1,01000004,0,0,0,0,W,80,1,01000005,0,0,0,0,X
 01000010=1,80,1,01000009,0,0,0,0,U
@@ -911,16 +944,18 @@ AreTeamMembersRecruitable=no
 01000016=4,54,2,01000012,0,0,0,0,A,54,2,01000010,0,0,0,0,A,53,2,01000018,0,0,0,0,A,53,2,01000020,0,0,0,0,A
 01000018=1,11,0,164,0,0,0,0,A
 01000020=1,11,0,164,0,0,0,0,A
+
 [ChemAP]
 Wall=yes
 Wood=yes
 Spread=3
-Verses=19%,75%,75%,100%,100%
+Verses=190%,750%,750%,1000%,1000%
 AnimList=VEH-HIT3
 InfDeath=2
 Particle=GasCloudSys
 ProneDamage=50%
 Conventional=yes
+
 [Events]
 01000006=1,13,0,80
 01000010=1,13,0,600
@@ -929,6 +964,7 @@ Conventional=yes
 01000016=1,48,0,0
 01000018=1,13,0,10
 01000020=1,13,0,300
+
 [Infantry]
 0=Spawn6,CYP,256,84,80,0,Guard,64,None,0,-1,0,1,0
 1=Spawn6,CYP,256,78,72,1,Guard,64,None,0,-1,0,1,0
@@ -1023,6 +1059,7 @@ Conventional=yes
 90=Spawn1,E1,256,25,92,1,Guard,64,None,0,-1,0,1,0
 91=Spawn1,E2,256,24,92,1,Guard,64,None,0,-1,0,1,0
 92=Spawn1,E2,256,23,91,1,Guard,64,None,0,-1,0,1,0
+
 [IsoMapPack5]
 0=Pw8AIAAHCgBaAM4CAAAHAAAKAFsAzgIAAA4AAAsAWYkBAWkBWokBCGgBoAQBDwAADMEEAm
 1=gBoQQJaAGhBBBoAQJhAAcKAGAAAgwAYgAIqAECDQBhAD5sAgEAAA0AuQYKaAG5BhFpAVyV
@@ -1834,6 +1871,7 @@ Conventional=yes
 807=BbANG7HKkAXIgBAQYAAKrVAgFoAbUCB2kBXYAEAQ0AAKvBBAJoAaEECGgBoAQBDgAArMEE
 808=A2gBoQQJaAGgBAEPAACtwQQEaAGhBApoAaAEARAAAK7YEQ8LAACuAF0A0QIAABEAAAAAAA
 809=ARAAA=
+
 [Lighting]
 Red=0.900000
 Blue=0.900000
@@ -1847,10 +1885,12 @@ IonGreen=1.000000
 IonLevel=0.032000
 IonGround=0.000000
 IonAmbient=0.500000
+
 [Map]
 Size=0,0,90,90
 Theater=DESERT
 LocalSize=2,4,86,81
+
 [OverlayDataPack]
 0=LQAAIP5ZFgCBAf4AAgCCBwT+/AEAhAMHCgj+/QEAhAcKCgf+/QEAhAcKCgb+ogEAgE0AAC
 1=D+WwAAgwYHBP78EwCBAf4AAgCBA/78AQCIAwMAAAQAAwP+9wEAiAMAAAMGBgAE/vkBAIYE
@@ -1914,6 +1954,7 @@ LocalSize=2,4,86,81
 59=AAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACA
 60=BQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIA
 61=CABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACA
+
 [OverlayPack]
 0=LQAAIP5ZFv+BG/4AAv+CHRv+/AH/hBwbHRz+/QH/hB0bGx3+/QH/hBsbHRv+ogH/gFEAAC
 1=D+WwD/gx0dHP78E/+BaP4AAv+Baf78Af+Ib2z//3//iWr+9wH/iGb//4Zobv9o/vkB/4pu
@@ -1979,8 +2020,10 @@ LocalSize=2,4,86,81
 61=Ag/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AF
 62=AAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4
 63=AFAAAg/gAg/4AFAAAg/gAg/4A=
+
 [ScriptTypes]
 0=01000001
+
 [SpecialFlags]
 Inert=no
 FogOfWar=no
@@ -1995,6 +2038,7 @@ HarvesterImmune=no
 TiberiumSpreads=yes
 TiberiumExplosive=no
 DestroyableBridges=yes
+
 [Structures]
 0=Spawn5,DTERM,256,143,104,64,None,1,0,1,0,0,None,None,None,0,0
 1=Spawn5,DTERM,256,143,101,64,None,1,0,1,0,0,None,None,None,0,0
@@ -2294,6 +2338,7 @@ DestroyableBridges=yes
 343=Spawn5,SAM,256,85,78,64,None,1,0,1,0,0,None,None,None,0,0
 344=Spawn5,SAM,256,80,74,64,None,1,0,1,0,0,None,None,None,0,0
 345=Spawn5,SAM,256,89,74,64,None,1,0,1,0,0,None,None,None,0,0
+
 [Tags]
 01000007=0,Early bike rush 1,01000006
 01000011=2,Continous ChemHVC attack 1,01000010
@@ -2302,15 +2347,18 @@ DestroyableBridges=yes
 01000017=0,Experiment Lab Destroyed 1,01000016
 01000019=0,Show obj 2 1,01000018
 01000021=2,Repeat obj 2 1,01000020
+
 [TaskForces]
 0=01000000
 1=01000008
+
 [TeamTypes]
 0=01000002
 1=01000003
 2=01000004
 3=01000005
 4=01000009
+
 [Terrain]
 7092=BR4
 14086=BR5
@@ -2421,6 +2469,7 @@ DestroyableBridges=yes
 154105=BR3
 157092=BR5
 170088=BR4
+
 [Triggers]
 01000006=Neutral,<none>,Early bike rush,0,1,1,1,0
 01000010=Neutral,<none>,Continous ChemHVC attack,0,1,1,1,0
@@ -2429,6 +2478,7 @@ DestroyableBridges=yes
 01000016=Neutral,<none>,Experiment Lab Destroyed,0,1,1,1,0
 01000018=Neutral,<none>,Show obj 2,1,1,1,1,0
 01000020=Neutral,<none>,Repeat obj 2,1,1,1,1,0
+
 [Units]
 S=Spawn1,BARLU,256,0,0,64,Unload,None,0,-1,0,-1,1,0
 T=Spawn2,BARLU,256,1,0,64,Unload,None,0,-1,0,-1,1,0
@@ -2478,6 +2528,7 @@ Z=Spawn8,BARLU,256,7,0,64,Unload,None,0,-1,0,-1,1,0
 61=Spawn6,AILTNK,256,133,98,64,Guard,None,0,-1,0,-1,1,0
 62=Spawn6,AILTNK,256,134,99,64,Guard,None,0,-1,0,-1,1,0
 63=Spawn6,AILTNK,256,132,97,64,Guard,None,0,-1,0,-1,1,0
+
 [Waypoints]
 0=93022
 1=85151
@@ -2491,6 +2542,9 @@ Z=Spawn8,BARLU,256,7,0,64,Unload,None,0,-1,0,-1,1,0
 21=121137
 22=59047
 23=45059
+
 [X]
+
 [Digest]
 1=xgmbiqezzlXONz5X+cuGCgm34D0=
+

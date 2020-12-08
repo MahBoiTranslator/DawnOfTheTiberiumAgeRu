@@ -239,7 +239,7 @@ LegalTarget=yes
 LegalTarget=yes
 
 [V2HE]
-Verses=0%,75%,60%,25%,25%
+Verses=0%,750%,600%,250%,250%
 
 [VehicleTypes]
 9001=TTEFTNK

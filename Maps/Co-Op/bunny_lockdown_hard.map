@@ -41,33 +41,47 @@ TiberiumGrowthEnabled=yes
 DisallowedPlayerColors=1,10
 IgnoreGlobalAITriggers=yes
 TiberiumDeathToVisceroid=yes
+
 [AI]
 BuildBarracks=PYLE_AI,HAND_AI,RATENT_AI,RABARR_AI,VS12
+
 [AILTNK]
 Passengers=0
+
 [BBOARD05]
 Name=Bunny Bioengineering Area
+
 [BBOARD08]
 Name=From God. To Kane. To Rampastring. To Tiberius.
+
 [BBOARD09]
 Name=DTA Rocks!
+
 [BBOARD10]
 Name=Remaster, huh? You're playing the ...
+
 [BBOARD11]
 Name=...REAL remaster already!
+
 [BBOARD12]
 Name=Tunnel Entrance
+
 [BBOARD13]
 Name=DTA 1.19 - MAY 2020
+
 [BBOARD14]
 Name=Play DTA on CnCNet!
+
 [BBOARD15]
 Name=The bank has a shortage of cash...
+
 [BBOARD16]
 Name=...due to increased CnCNet server costs.
+
 [BIO]
 Factory=InfantryType
 Capturable=no
+
 [BOMBBUNNY]
 Cost=250
 Name=Holy Demo Bunny
@@ -98,6 +112,7 @@ TiberiumHeal=no
 ImmuneToVeins=yes
 TiberiumProof=yes
 AllowedToStartInMultiplayer=no
+
 [BUNZILLA]
 Cost=20000
 Name=Bunzilla
@@ -127,8 +142,10 @@ Prerequisite=CABHUT
 ImmuneToVeins=yes
 TiberiumProof=yes
 AllowedToStartInMultiplayer=no
+
 [BuildingTypes]
 1=FSDS
+
 [BunnyChemSpray]
 ROF=80
 Anim=CHEM-N,CHEM-NE,CHEM-E,CHEM-SE,CHEM-S,CHEM-SW,CHEM-W,CHEM-NW
@@ -138,6 +155,7 @@ Damage=70
 Report=FLAMER2
 Warhead=ChemicalBunny
 Projectile=Invisible
+
 [BunnyEMPWeapon]
 ROF=90
 Range=5
@@ -151,6 +169,7 @@ LaserDuration=18
 LaserInnerColor=200,200,255
 LaserOuterColor=0,0,0
 LaserOuterSpread=0,0,0
+
 [BunnyFlame]
 ROF=25
 Anim=FLAME-N,FLAME-NE,FLAME-E,FLAME-SE,FLAME-S,FLAME-SW,FLAME-W,FLAME-NW
@@ -160,6 +179,7 @@ Damage=250
 Report=FLAMER2
 Warhead=Fire1
 Projectile=Invisible
+
 [BunnyJaw]
 ROF=20
 Range=2.0
@@ -168,6 +188,7 @@ Damage=20
 Report=BUNNYCHEW1
 Warhead=BunnyOrganic
 Projectile=Invisible2
+
 [BunnyLaserEyes]
 ROF=-1
 Range=8.5
@@ -182,6 +203,7 @@ LaserDuration=1
 LaserInnerColor=255,0,0
 LaserOuterColor=0,0,0
 LaserOuterSpread=20,40,40
+
 [BunzillaChem]
 ROF=30
 Range=5.9
@@ -193,6 +215,7 @@ Projectile=Invisible
 AmbientDamage=40
 UseFireParticles=yes
 AttachedParticleSystem=ChemStreamSys
+
 [BunzillaShard]
 ROF=15
 Burst=3
@@ -202,22 +225,28 @@ Damage=80
 Report=FIEND2
 Warhead=Shard
 Projectile=DogShardR
+
 [C1]
 Primary=none
+
 [C6]
 Primary=InfFlamethrowerE
 Strength=100
+
 [C7]
 Primary=MinigunE
 Strength=100
+
 [C8]
 Primary=70mmMsl
 Strength=100
 Secondary=AA70mmMsl
+
 [C9]
 Primary=GrenadeLauncher
 Warhead=VolkovAP
 Strength=100
+
 [CHEMBUNNY]
 Cost=350
 Name=Chemical Bunny
@@ -247,8 +276,10 @@ TiberiumHeal=yes
 ImmuneToVeins=yes
 TiberiumProof=yes
 AllowedToStartInMultiplayer=no
+
 [CRATE]
 Image=CRATEGG
+
 [ChemStream]
 Deacc=0.01
 Image=CHEMALL
@@ -267,11 +298,14 @@ FinalDamageState=14
 DeleteOnStateLimit=yes
 Translucent25State=10
 Translucent50State=15
+
 [CombatDamage]
 BridgeStrength=750
+
 [CrateRules]
 CrateImg=SCRATEGG
 WoodCrateImg=CRATEGG
+
 [ELITEBUNNY]
 Cost=400
 Name=Tough Bunny
@@ -300,6 +334,7 @@ Prerequisite=CABHUT
 ImmuneToVeins=yes
 TiberiumProof=yes
 AllowedToStartInMultiplayer=no
+
 [EMPBUNNY]
 Cost=500
 Name=EMP Bunny
@@ -329,6 +364,7 @@ Prerequisite=CABHUT
 ImmuneToVeins=yes
 TiberiumProof=yes
 AllowedToStartInMultiplayer=no
+
 [FSDS]
 Name=Firestorm Wall Section
 Armor=concrete
@@ -345,15 +381,18 @@ FirestormWall=yes
 Insignificant=yes
 PlaceAnywhere=yes
 InvisibleInGame=yes
+
 [FiendShardR]
 Range=8
 Damage=16
+
 [General]
 TeamDelays=425,1125,2250
 TotalAITeamCap=100,50,25
 MultiplayerAICM=10000,10000,10000
 GDIFirestormGenerator=RAFCOM
 MaximumAIDefensiveTeams=0,0,0
+
 [GrenadeLauncher]
 ROF=50
 Range=6.5
@@ -362,24 +401,28 @@ Damage=50
 Report=GUN20
 Warhead=GrenadeLauncherAP
 Projectile=Lobbed
+
 [INREDLMP]
 LightRedTint=0.3
 LightBlueTint=0.3
 LightGreenTint=0.3
 LightIntensity=-1.0
 LightVisibility=1000
+
 [INTEQUIP2A]
 Name=Bunny Bioengineering Facility
 Immune=no
 Strength=1200
 Selectable=yes
 LegalTarget=yes
+
 [INTEQUIP2B]
 Name=Bunny Bioengineering Facility
 Immune=no
 Strength=1200
 Selectable=yes
 LegalTarget=yes
+
 [InfantryTypes]
 9001=REGBUNNY
 9002=LREGBUNNY
@@ -391,6 +434,7 @@ LegalTarget=yes
 9008=EMPBUNNY
 9009=MTNTBUNNY
 9010=BUNZILLA
+
 [LASERBUNNY]
 Cost=500
 Name=Cute Laser-Eyed Bunny
@@ -419,8 +463,10 @@ Prerequisite=CABHUT
 ImmuneToVeins=yes
 TiberiumProof=yes
 AllowedToStartInMultiplayer=no
+
 [LLine]
 AA=yes
+
 [LREGBUNNY]
 Cost=200
 Name=Large Bunny
@@ -451,6 +497,7 @@ TiberiumHeal=no
 ImmuneToVeins=yes
 TiberiumProof=yes
 AllowedToStartInMultiplayer=no
+
 [LargeBunnyJaw]
 ROF=20
 Range=2
@@ -459,6 +506,7 @@ Damage=60
 Report=BUNNYCHEW2
 Warhead=BunnyOrganic
 Projectile=Invisible2
+
 [MTNTBUNNY]
 Cost=1600
 Name=Mutant Bunny
@@ -487,9 +535,11 @@ Prerequisite=CABHUT
 ImmuneToVeins=yes
 TiberiumProof=yes
 AllowedToStartInMultiplayer=no
+
 [RAFCOM]
 Name=Firestorm Generator
 SuperWeapon=FirestormSpecial
+
 [REGBUNNY]
 Cost=100
 Name=Bunny
@@ -520,8 +570,10 @@ TiberiumHeal=no
 ImmuneToVeins=yes
 TiberiumProof=yes
 AllowedToStartInMultiplayer=no
+
 [SCRATE]
 Image=SCRATEGG
+
 [SHARDBUNNY]
 Cost=150
 Name=Shard Bunny
@@ -552,47 +604,56 @@ TiberiumHeal=no
 ImmuneToVeins=yes
 TiberiumProof=yes
 AllowedToStartInMultiplayer=no
+
 [SOVIETUNIT1]
 Name=Rabbit Nest Deployer
 Image=RAMCV
 Primary=DeployWeapon
 DeploysInto=VS12
 DeployToFire=true
+
 [Suicide]
 ROF=100
 Anim=DEMONUKE
+
 [TIBSPRDA]
 LightRedTint=0.3
 LightBlueTint=0.0
 LightGreenTint=0.3
 LightIntensity=0.007
 LightVisibility=2500
+
 [TIBSPRDR]
 LightRedTint=0.0
 LightBlueTint=0.0
 LightGreenTint=0.35
 LightIntensity=0.007
 LightVisibility=2500
+
 [TIBSPRDRH]
 LightRedTint=0.0
 LightBlueTint=0.0
 LightGreenTint=0.35
 LightIntensity=0.007
 LightVisibility=3000
+
 [TIBSPRDRL]
 LightRedTint=0.0
 LightBlueTint=0.0
 LightGreenTint=0.35
 LightIntensity=0.007
 LightVisibility=3500
+
 [TIBSPRDV]
 LightRedTint=0.0
 LightBlueTint=0.3
 LightGreenTint=0.0
 LightIntensity=0.01
 LightVisibility=2500
+
 [VS01]
 Insignificant=no
+
 [VS12]
 Name=Rabbit Nest
 Image=RBTHOLE
@@ -606,23 +667,29 @@ NODBarracks=true
 Prerequisite=CABHUT
 Insignificant=no
 ConstructionYard=yes
+
 [Warheads]
 9001=BunnyOrganic
 9002=ChemicalBunny
 9003=BunnyEMPWarhead
 9004=BunzillaChemical
+
 [Preview]
 Size=0,0,106,61
+
 [PreviewPack]
 2=BIACcgAEwBtAMnRABAAaQCSANMAVQASAAnIABMAbQDJ0QAQAGkAkgDTAFUAEgAJyAATAG0
 1=yAsAIAXQ5PDQ5PDQ6JQATAEE6PDQ4PDI4JgBTAFEAkgAJyAATAG0AydEAEABpAJIA0wBVA
+
 [01000000]
 0=1,SOVIETUNIT1
 Name=Deployer
 Group=-1
+
 [01000001]
 0=9,0
 Name=Deploy
+
 [01000002]
 Max=0
 Full=no
@@ -654,6 +721,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000003]
 Max=0
 Full=no
@@ -685,6 +753,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000004]
 0=3,E2
 1=2,MTNK
@@ -692,15 +761,19 @@ AreTeamMembersRecruitable=no
 3=2,E1
 Name=Starting units
 Group=-1
+
 [01000005]
 0=3,21
 Name=Move to 21
+
 [01000006]
 0=3,23
 Name=Move to 23
+
 [01000007]
 0=3,25
 Name=Move to 25
+
 [01000008]
 Max=0
 Full=no
@@ -732,6 +805,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000009]
 Max=0
 Full=no
@@ -763,6 +837,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000010]
 Max=0
 Full=no
@@ -794,6 +869,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000029]
 0=1,GMCV
 1=2,JEEP
@@ -802,15 +878,19 @@ AreTeamMembersRecruitable=no
 4=1,MTNK
 Name=MCV and stuff
 Group=-1
+
 [01000030]
 0=3,30
 Name=Move to 30
+
 [01000031]
 0=3,31
 Name=Move to 31
+
 [01000032]
 0=3,32
 Name=Move to 32
+
 [01000033]
 Max=0
 Full=no
@@ -842,6 +922,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000034]
 Max=0
 Full=no
@@ -873,6 +954,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000035]
 Max=0
 Full=no
@@ -904,10 +986,12 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000046]
 0=1,NMCV
 Name=Nod MCV
 Group=-1
+
 [01000047]
 Max=0
 Full=no
@@ -939,10 +1023,12 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000050]
 0=1,BUNZILLA
 Name=Bunzilla
 Group=-1
+
 [01000051]
 Max=0
 Full=no
@@ -974,10 +1060,12 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000060]
 0=4,MTNTBUNNY
 Name=Mutant Bunnies
 Group=-1
+
 [01000061]
 Max=0
 Full=no
@@ -1009,6 +1097,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000068]
 0=3,C6
 1=3,C7
@@ -1016,6 +1105,7 @@ AreTeamMembersRecruitable=no
 3=3,C9
 Name=Civilians
 Group=-1
+
 [01000069]
 Max=0
 Full=no
@@ -1047,11 +1137,13 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000096]
 0=5,BIKE
 1=4,BGGY
 Name=Nod city attacks
 Group=-1
+
 [01000097]
 Max=0
 Full=no
@@ -1083,17 +1175,20 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000102]
 0=2,AIMLRS
 1=3,AILTNK
 Name=Massive Nod force
 Group=-1
+
 [01000103]
 0=1,CYP
 1=8,LASERBUNNY
 2=4,ELITEBUNNY
 Name=Massive Nod force 2
 Group=-1
+
 [01000104]
 Max=0
 Full=no
@@ -1125,6 +1220,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000105]
 Max=0
 Full=no
@@ -1156,6 +1252,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000108]
 Max=0
 Full=no
@@ -1187,11 +1284,13 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
+
 [01000111]
 0=3,84
 1=3,85
 2=11,14
 Name=Mutant Bunny Script
+
 [01000112]
 0=3,71
 1=3,72
@@ -1199,12 +1298,14 @@ Name=Mutant Bunny Script
 3=3,81
 4=11,14
 Name=Nod reinforcement script
+
 [01000121]
 0=3,86
 1=3,82
 2=3,83
 3=11,14
 Name=Nod Bunny reinfs script
+
 [AITriggerTypes]
 AITRIGGER_GDIAI0=GDI AI Infantry Team 1,TT_GDIAI0,<all>,-1,-1,<none>,0000000000000000000000000000000000000000000000000000000000000000,120.000000,80.000000,160.000000,1,0,1,0,<none>,1,1,1
 AITRIGGER_GDIAI1=GDI AI Vehicle Team 1,TT_GDIAI1,<all>,-1,-1,<none>,0000000000000000000000000000000000000000000000000000000000000000,120.000000,80.000000,160.000000,1,0,1,0,<none>,1,1,1
@@ -1229,6 +1330,7 @@ AITRIGGER_BUNNIES07=EMP Bunnies,TT_EMPBNS,<all>,-1,-1,<none>,0000000000000000000
 AITRIGGER_BUNNIES08=Bunny Mix 1,TT_BNMIX1,<all>,-1,-1,<none>,0000000000000000000000000000000000000000000000000000000000000000,120.000000,80.000000,160.000000,1,0,4,0,<none>,1,1,1
 AITRIGGER_BUNNIES09=Bunny Mix 2,TT_BNMIX2,<all>,-1,-1,<none>,0000000000000000000000000000000000000000000000000000000000000000,120.000000,80.000000,160.000000,1,0,4,0,<none>,1,1,1
 AITRIGGER_BUNNIES10=Bunny Mix 3,TT_BNMIX3,<all>,-1,-1,<none>,0000000000000000000000000000000000000000000000000000000000000000,120.000000,80.000000,160.000000,1,0,4,0,<none>,1,1,1
+
 [AITriggerTypesEnable]
 AITRIGGER_GDIAI0=yes
 AITRIGGER_GDIAI1=yes
@@ -1253,6 +1355,7 @@ AITRIGGER_BUNNIES07=yes
 AITRIGGER_BUNNIES08=yes
 AITRIGGER_BUNNIES09=yes
 AITRIGGER_BUNNIES10=yes
+
 [Actions]
 01000011=3,48,0,3,0,0,0,0,AA,17,0,26,0,0,0,0,A,46,0,0,0,0,0,0,A
 01000013=1,11,0,10168,0,0,0,0,A
@@ -1297,12 +1400,15 @@ AITRIGGER_BUNNIES10=yes
 01000115=1,80,1,01000105,0,0,0,0,BS
 01000117=1,80,1,01000104,0,0,0,0,BS
 01000119=1,54,2,01000117,0,0,0,0,A
+
 [Allies]
 NodeCount=
+
 [BMBBNSTF]
 0=2,BOMBBUNNY
 Name=Demo Bunnies
 Group=-1
+
 [BNMIXTF1]
 0=2,SHARDBUNNY
 1=2,CHEMBUNNY
@@ -1310,6 +1416,7 @@ Group=-1
 3=2,ELITEBUNNY
 Name=Bunny Mix 1
 Group=-1
+
 [BNMIXTF2]
 0=2,ELITEBUNNY
 1=2,CHEMBUNNY
@@ -1317,65 +1424,77 @@ Group=-1
 3=2,EMPBUNNY
 Name=Bunny Mix 2
 Group=-1
+
 [BNMIXTF3]
 0=4,LASERBUNNY
 1=4,ELITEBUNNY
 Name=Bunny Mix 3
 Group=-1
+
 [BUNNYTF]
 0=10,REGBUNNY
 1=1,LREGBUNNY
 Name=Regular bunnies
 Group=-1
+
 [BUNNYTF2]
 0=4,REGBUNNY
 1=3,LREGBUNNY
 Name=Regular bunnies 2
 Group=-1
+
 [BunnyEMPWarhead]
 Spread=1
-Verses=1%,1%,100%,100%,1%
+Verses=1%,1%,1000%,1000%,1%
 EMEffect=yes
+
 [BunnyOrganic]
 Spread=0
-Verses=100%,50%,27%,20%,10%
+Verses=1000%,500%,270%,200%,100%
 InfDeath=1
+
 [BunzillaChemical]
 Wall=yes
 Wood=yes
 Spread=64
-Verses=110%,110%,56%,50%,50%
+Verses=1100%,1100%,560%,500%,500%
 InfDeath=1
 Tiberium=yes
 ProneDamage=50%
+
 [CHMBNSTF]
 0=5,CHEMBUNNY
 1=4,LREGBUNNY
 Name=Chemical Bunnies
 Group=-1
+
 [CellTags]
 158206=01000028
 159206=01000028
 160206=01000028
+
 [ChemicalBunny]
 Wall=yes
 Wood=yes
 Spread=32
-Verses=44%,75%,56%,25%,20%
+Verses=440%,750%,560%,250%,200%
 InfDeath=1
 Particle=GasCloudSys
 Tiberium=yes
 ProneDamage=50%
+
 [ELTBNSTF]
 0=4,ELITEBUNNY
 1=4,LREGBUNNY
 Name=Elite Bunnies
 Group=-1
+
 [EMPBNSTF]
 0=3,EMPBUNNY
 1=5,LREGBUNNY
 Name=EMP Bunnies
 Group=-1
+
 [Events]
 01000011=1,13,0,1
 01000013=1,13,0,5
@@ -1420,78 +1539,115 @@ Group=-1
 01000115=2,13,0,200,37,0,0
 01000117=2,13,0,20,37,0,0
 01000119=1,13,0,160
+
 [Fake10]
 NodeCount=
+
 [Fake11]
 NodeCount=
+
 [Fake12]
 NodeCount=
+
 [Fake13]
 NodeCount=
+
 [Fake14]
 NodeCount=
+
 [Fake15]
 NodeCount=
+
 [Fake16]
 NodeCount=
+
 [Fake17]
 NodeCount=
+
 [Fake18]
 NodeCount=
+
 [Fake19]
 NodeCount=
+
 [Fake20]
 NodeCount=
+
 [Fake21]
 NodeCount=
+
 [Fake22]
 NodeCount=
+
 [Fake23]
 NodeCount=
+
 [Fake24]
 NodeCount=
+
 [Fake25]
 NodeCount=
+
 [Fake26]
 NodeCount=
+
 [Fake27]
 NodeCount=
+
 [Fake28]
 NodeCount=
+
 [Fake29]
 NodeCount=
+
 [Fake30]
 NodeCount=
+
 [Fake31]
 NodeCount=
+
 [Fake32]
 NodeCount=
+
 [Fake33]
 NodeCount=
+
 [Fake34]
 NodeCount=
+
 [Fake35]
 NodeCount=
+
 [Fake36]
 NodeCount=
+
 [Fake37]
 NodeCount=
+
 [Fake38]
 NodeCount=
+
 [Fake39]
 NodeCount=
+
 [Fake40]
 NodeCount=
+
 [Fake41]
 NodeCount=
+
 [Fake6]
 NodeCount=
+
 [Fake7]
 NodeCount=
+
 [Fake8]
 NodeCount=
+
 [Fake9]
 NodeCount=
+
 [FirestormSpecial]
 Name=Firestorm Defense
 Type=Firestorm
@@ -1503,6 +1659,7 @@ ChargingVoice=
 RechargeVoice=NOREDY1
 ImpatientVoice=
 UseChargeDrain=false
+
 [ForcedOptions]
 chkNaval=false
 chkSilos=true
@@ -1529,6 +1686,7 @@ cmbClassicEnhanced=1
 chkHarmlessTiberium=false
 chkInfiniteTiberium=false
 chkCrushableInfantry=true
+
 [GDI]
 IQ=
 Edge=
@@ -1541,16 +1699,19 @@ NodeCount=
 TechLevel=
 PercentBuilt=
 PlayerControl=
+
 [GDIAITF1]
 0=8,E1
 1=6,E2
 Name=GDI AI TaskForce 1
 Group=-1
+
 [GDIAITF2]
 0=2,AIMTNK
 1=2,AIJEEP
 Name=GDI AI TaskForce 2
 Group=-1
+
 [Houses]
 0=GDI
 1=Nod
@@ -1602,6 +1763,7 @@ Group=-1
 47=Spawn6
 48=Spawn7
 49=Spawn8
+
 [Infantry]
 0=Spawn8,E3N,256,225,142,1,Guard,64,None,0,-1,0,1,0
 1=Spawn8,E3N,256,225,145,1,Guard,64,None,0,-1,0,1,0
@@ -1916,6 +2078,7 @@ Group=-1
 310=Spawn8,CYP,256,53,137,0,Guard,64,None,0,-1,0,1,0
 311=Spawn8,CYP,256,59,157,1,Guard,64,None,0,-1,0,1,0
 312=Spawn8,CYP,256,82,144,0,Guard,64,None,0,-1,0,1,0
+
 [IsoMapPack5]
 0=ow4AIA8GAHYAYQQAAAgAAAoAdABkBABjAAoAdYgBBgIAAAsAdwD7A3ACAwALAHgA/ugBrQ
 1=UBYAStBQNrAXwAoKQIAwsAgAD2BtkGgYgBBgMAAAwAgwBOAZQCAgwAegD9sAkCDAB4ACe7
@@ -3970,11 +4133,13 @@ Group=-1
 2050=aQGJiQEKaQGKiAEDDgAA9QCLjQUFaAGlCAloAaUIDWgBuAYGCwAA9gCJACcEcA0BAPYAip
 2051=kGAnQCpQgGaAGkCAUKAAD3AIgA+6QTAvcAiQD86QGO5Qj3xQgDbAWkCAUHAAD4AIkA86wF
 2052=AvgAigD+qAEL+QCMADkEAAACAAD6AIuIAQ8BAAD6AIwAOQQAAAMAAAAAAAARAAA=
+
 [LSRBNSTF]
 0=5,LASERBUNNY
 1=4,LREGBUNNY
 Name=Laser Bunnies
 Group=-1
+
 [Lighting]
 Red=1.100000
 Blue=1.000000
@@ -3988,53 +4153,65 @@ IonGreen=1.000
 IonLevel=0.032
 IonGround=0.000
 IonAmbient=0.500
+
 [Map]
 Size=0,0,120,140
 Theater=TEMPERATE
 LocalSize=4,7,112,127
+
 [NDAIATF1]
 0=2,APACHE
 Name=Nod AI Air TaskForce 1
 Group=-1
+
 [NDAIITF1]
 0=7,E1N
 1=4,E3N
 Name=Nod AI Infantry TaskForce 1
 Group=-1
+
 [NDAIITF2]
 0=5,E4
 Name=Nod AI Infantry TaskForce 2
 Group=-1
+
 [NDAIITF3]
 0=6,E3N
 1=4,E1N
 Name=Nod AI Infantry TaskForce 3
 Group=-1
+
 [NDAIITF4]
 0=5,E5
 Name=Nod AI Infantry TaskForce 4
 Group=-1
+
 [NDAIITF5]
 0=1,CYP
 Name=Nod AI Infantry TaskForce 5
 Group=-1
+
 [NDAIVTF1]
 0=3,AIBIKE2
 Name=Nod AI Vehicle TaskForce 1
 Group=-1
+
 [NDAIVTF2]
 0=3,AIARTY
 1=2,AILTNK
 Name=Nod AI Vehicle TaskForce 2
 Group=-1
+
 [NDAIVTF3]
 0=4,AILTNK
 Name=Nod AI Vehicle TaskForce 3
 Group=-1
+
 [NDAIVTF4]
 0=2,AISTNK
 Name=Nod AI Vehicle TaskForce 4
 Group=-1
+
 [Neutral]
 IQ=
 Edge=
@@ -4047,8 +4224,10 @@ NodeCount=
 TechLevel=
 PercentBuilt=
 PlayerControl=
+
 [Nod]
 NodeCount=
+
 [OverlayDataPack]
 1=BQAAIP4AIACALwAAIP56BACBBf8GAnsC//kBegRB+YEK//gDggKFAAACCgj+AgIAgQn+9g
 2=8A/4gBgQ6AygAAIP57AACBA/7/AQCBBP79AQCBB/7+AwBn/YQJAAAC/w8CiAD/zwF7AIQH
@@ -4139,6 +4318,7 @@ NodeCount=
 87=IP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQ
 88=AAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACA
 89=BQAAIP4AIACABQAAIP4AIACA
+
 [OverlayPack]
 1=LAAAIP55FP+BtP//AXsSgrS0/wICehL/+gF6FgP+AAL//AF9GP/6AXgW/40BehiAdwAAIP
 2=5zAP/+BAC0AAVQDf7wAf8R/hAHUA/+8QH/Mf+CtAH+/wH/QgCBCP//A4IE//wBfwSCAQH+
@@ -4262,17 +4442,21 @@ NodeCount=
 120=UAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/
 121=gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+AC
 122=D/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gA==
+
 [SCRIPT_ATF]
 0=0,6
 Name=Attack Factories
+
 [SCRIPT_HUNT]
 0=11,14
 Name=Hunt
+
 [SHRDBNTF]
 0=6,SHARDBUNNY
 1=4,LREGBUNNY
 Name=Shard Bunnies
 Group=-1
+
 [ScriptTypes]
 0=01000001
 1=01000005
@@ -4286,8 +4470,10 @@ Group=-1
 9=01000121
 9001=SCRIPT_HUNT
 9002=SCRIPT_ATF
+
 [Soviet]
 NodeCount=
+
 [Spawn1]
 IQ=
 Edge=
@@ -4300,6 +4486,7 @@ NodeCount=
 TechLevel=
 PercentBuilt=
 PlayerControl=
+
 [Spawn2]
 IQ=
 Edge=
@@ -4312,6 +4499,7 @@ NodeCount=
 TechLevel=
 PercentBuilt=
 PlayerControl=
+
 [Spawn3]
 IQ=
 Edge=
@@ -4324,23 +4512,30 @@ NodeCount=
 TechLevel=
 PercentBuilt=
 PlayerControl=
+
 [Spawn4]
 Color=
 NodeCount=
+
 [Spawn5]
 Color=
 NodeCount=
+
 [Spawn6]
 Color=
 NodeCount=
+
 [Spawn7]
 Color=
 NodeCount=
+
 [Spawn8]
 Color=
 NodeCount=
+
 [Special]
 NodeCount=
+
 [SpecialFlags]
 Inert=no
 FogOfWar=no
@@ -4355,6 +4550,7 @@ HarvesterImmune=no
 TiberiumSpreads=yes
 TiberiumExplosive=no
 DestroyableBridges=yes
+
 [Structures]
 0=Spawn8,GUN,256,224,152,64,None,1,0,1,0,0,None,None,None,0,0
 1=Neutral,STEELCRATE,256,207,175,64,None,1,0,1,0,0,None,None,None,0,0
@@ -4913,6 +5109,7 @@ DestroyableBridges=yes
 557=Neutral,FSDS,256,135,245,64,None,1,0,1,0,0,None,None,None,0,0
 558=Neutral,FSDS,256,135,246,64,None,1,0,1,0,0,None,None,None,0,0
 559=Neutral,FSDS,256,136,246,64,None,1,0,1,0,0,None,None,None,0,0
+
 [TT_BMBBNS]
 Max=8
 Full=no
@@ -4944,6 +5141,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_BNMIX1]
 Max=8
 Full=no
@@ -4975,6 +5173,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_BNMIX2]
 Max=8
 Full=no
@@ -5006,6 +5205,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_BNMIX3]
 Max=8
 Full=no
@@ -5037,6 +5237,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_CHMBNS]
 Max=8
 Full=no
@@ -5068,6 +5269,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_ELTBNS]
 Max=8
 Full=no
@@ -5099,6 +5301,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_EMPBNS]
 Max=8
 Full=no
@@ -5130,6 +5333,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_GDIAI0]
 Max=8
 Full=no
@@ -5161,6 +5365,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_GDIAI1]
 Max=8
 Full=no
@@ -5192,6 +5397,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_LSRBNS]
 Max=8
 Full=no
@@ -5223,6 +5429,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_NODAIA0]
 Max=8
 Full=no
@@ -5254,6 +5461,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_NODAII0]
 Max=8
 Full=no
@@ -5285,6 +5493,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_NODAII1]
 Max=8
 Full=no
@@ -5316,6 +5525,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_NODAII2]
 Max=8
 Full=no
@@ -5347,6 +5557,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_NODAII3]
 Max=8
 Full=no
@@ -5378,6 +5589,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_NODAII4]
 Max=1
 Full=no
@@ -5409,6 +5621,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_NODAIV0]
 Max=8
 Full=no
@@ -5440,6 +5653,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_NODAIV1]
 Max=8
 Full=no
@@ -5471,6 +5685,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_NODAIV2]
 Max=8
 Full=no
@@ -5502,6 +5717,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_NODAIV3]
 Max=8
 Full=no
@@ -5533,6 +5749,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_REGBUNNIES]
 Max=8
 Full=no
@@ -5564,6 +5781,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_REGBUNNIES2]
 Max=8
 Full=no
@@ -5595,6 +5813,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [TT_SHRDBNS]
 Max=8
 Full=no
@@ -5626,6 +5845,7 @@ IsBaseDefense=no
 OnlyTargetHouseEnemy=yes
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
+
 [Tags]
 01000012=0,Start 1,01000011
 01000014=0,Start 2 1,01000013
@@ -5670,6 +5890,7 @@ AreTeamMembersRecruitable=yes
 01000116=0,Massive Nod attack 2 1,01000115
 01000118=2,Massive Nod attack - repeating 1,01000117
 01000120=0,Disable massive attack 1,01000119
+
 [TaskForces]
 0=01000000
 1=01000004
@@ -5704,6 +5925,7 @@ AreTeamMembersRecruitable=yes
 9009=BNMIXTF1
 9010=BNMIXTF2
 9011=BNMIXTF3
+
 [TeamTypes]
 0=01000051
 1=01000002
@@ -5744,6 +5966,7 @@ NODAI6=TT_NODAIV1
 NODAI7=TT_NODAIV2
 NODAI8=TT_NODAIV3
 NODAI9=TT_NODAIA0
+
 [Terrain]
 11121=TC05
 12124=T11
@@ -8259,6 +8482,7 @@ NODAI9=TT_NODAIA0
 228157=SROCK06
 228161=TC03
 230159=T10
+
 [Triggers]
 01000011=Neutral,<none>,Start,0,1,1,1,0
 01000013=Neutral,<none>,Start 2,0,1,1,1,0
@@ -8303,6 +8527,7 @@ NODAI9=TT_NODAIA0
 01000115=Neutral,<none>,Massive Nod attack 2,1,1,1,1,0
 01000117=Neutral,<none>,Massive Nod attack - repeating,1,1,1,1,0
 01000119=Neutral,<none>,Disable massive attack,1,1,1,1,0
+
 [Tubes]
 0=131,228,0,131,205,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1
 1=131,205,4,131,228,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,-1
@@ -8352,6 +8577,7 @@ NODAI9=TT_NODAIA0
 45=132,105,4,132,111,4,4,4,4,4,4,-1
 46=133,111,0,133,105,0,0,0,0,0,0,-1
 47=133,105,4,133,111,4,4,4,4,4,4,-1
+
 [Units]
 0=Spawn8,AIBGGY,256,237,146,64,Guard,None,0,-1,0,-1,1,0
 1=Spawn8,AIBIKE,256,236,143,0,Guard,None,0,-1,0,-1,1,0
@@ -8483,8 +8709,10 @@ NODAI9=TT_NODAIA0
 127=Spawn8,AISTNK,256,68,122,64,Guard,None,0,-1,0,-1,1,0
 128=Spawn8,AISTNK,256,66,123,64,Guard,None,0,-1,0,-1,1,0
 129=Spawn8,AIMLRS,256,81,142,192,Guard,None,0,-1,0,-1,1,0
+
 [VariableNames]
 0=Underground facility breached,0
+
 [Waypoints]
 0=47084
 1=32141
@@ -8531,5 +8759,8 @@ NODAI9=TT_NODAIA0
 85=161158
 86=196106
 
+[X]
+
 [Digest]
 1=wYEOGjfe640uIK5DK48cPOvy+dE=
+

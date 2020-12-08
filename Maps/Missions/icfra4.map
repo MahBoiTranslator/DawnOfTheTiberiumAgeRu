@@ -90,7 +90,7 @@ SpawnTranslucencyCutoff=100
 [BarrelExp]
 Wood=yes
 Spread=20
-Verses=75%,75%,100%,50%,25%
+Verses=750%,750%,1000%,500%,250%
 
 [BarrelSys]
 Spawns=yes
@@ -147,7 +147,7 @@ Range=3
 RangeInRA1=4
 
 [Gas]
-Verses=200%,0%,100%,60%,60%
+Verses=2000%,0%,1000%,600%,600%
 
 [GrenadeRA]
 Range=3
@@ -187,7 +187,7 @@ MinimumRange=0
 ProjectileRange=4.25
 
 [Napalm2]
-Verses=90%,100%,150%,150%,50%
+Verses=900%,1000%,1500%,1500%,500%
 
 [RABARL]
 Strength=10
@@ -237,7 +237,7 @@ Wall=yes
 InfDeath=1
 
 [VolkovAP]
-Verses=100%,100%,100%,100%,100%
+Verses=1000%,1000%,1000%,1000%,1000%
 
 [Super2]
 InfDeath=5

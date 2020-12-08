@@ -262,7 +262,7 @@ Name=Player's Medium Tanks
 Group=-1
 
 [01000029]
-0=2,CTNK
+0=4,TNKD
 1=2,RAARTY
 2=1,AMCV
 Name=Player's slow units
@@ -579,6 +579,44 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
+[01000087]
+0=2,AI3TNK
+1=2,AIGTNK2
+Name=Continous Easy attack
+Group=-1
+
+[01000088]
+Max=0
+Full=no
+Name=Easy AI Continous Attack
+Group=-1
+House=Soviet
+Script=01000049
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=O
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000087
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
 [Actions]
 01000002=1,40,0,0,2,5,96,89,A
 01000006=4,3,0,3,0,0,0,0,A,13,0,3,0,0,0,0,A,74,0,3,0,0,0,0,A,81,0,0,0,0,0,0,A
@@ -609,8 +647,9 @@ AreTeamMembersRecruitable=no
 01000071=1,32,0,0,0,0,0,0,A
 01000077=2,80,1,01000075,0,0,0,0,O,53,2,01000079,0,0,0,0,A
 01000079=1,80,1,01000076,0,0,0,0,O
-01000081=1,80,1,01000076,0,0,0,0,O
+01000081=2,80,1,01000076,0,0,0,0,O,53,2,01000089,0,0,0,0,A
 01000085=1,80,1,01000084,0,0,0,0,O
+01000089=1,80,1,01000088,0,0,0,0,O
 
 [Allies]
 IQ=0
@@ -720,6 +759,7 @@ TiberiumDeathToVisceroid=yes
 01000079=2,27,0,11,13,0,600
 01000081=2,27,0,10,13,0,1200
 01000085=2,27,0,11,13,0,2500
+01000089=2,27,0,10,13,0,600
 
 [GDI]
 IQ=5
@@ -2967,7 +3007,7 @@ IonAmbient=0.500
 
 [Map]
 Size=0,0,100,100
-Theater=Temperate
+Theater=TEMPERATE
 LocalSize=2,44,96,50
 
 [Neutral]
@@ -3643,6 +3683,7 @@ AIRAHARVesterImmune=no
 01000080=2,Continous Medium AI Attack 1,01000079
 01000082=0,One-time Easy AI attack 1,01000081
 01000086=0,Medium AI Mammoth tank attack 1,01000085
+01000090=2,Continous Easy AI Attack 1,01000089
 
 [TaskForces]
 0=01000028
@@ -3655,6 +3696,7 @@ AIRAHARVesterImmune=no
 7=01000073
 8=01000074
 9=01000083
+10=01000087
 
 [TeamTypes]
 0=01000001
@@ -3668,6 +3710,7 @@ AIRAHARVesterImmune=no
 8=01000075
 9=01000076
 10=01000084
+11=01000088
 
 [Terrain]
 15106=T12
@@ -4955,6 +4998,7 @@ AIRAHARVesterImmune=no
 01000079=Neutral,<none>,Continous Medium AI Attack,1,1,1,1,0
 01000081=Neutral,<none>,One-time Easy AI attack,1,1,1,1,0
 01000085=Neutral,<none>,Medium AI Mammoth tank attack,1,1,1,1,0
+01000089=Neutral,<none>,Continous Easy AI Attack,1,1,1,1,0
 
 [Tutorial]
 10091=The Soviets have heavily fortified this area.
